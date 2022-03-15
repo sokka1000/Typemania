@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6.LoginController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #6D1FF2;">
+         <children>
+            <Label prefHeight="35.0" prefWidth="134.0" text="Welcome to" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="145.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@data/nou2.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="BASELINE_LEFT" prefHeight="95.0" prefWidth="327.0">
+               <children>
+                  <Label alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="397.0" text="Copyright(c) 2021,The Typemania authors,All rights reserved" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Pane fx:id="contentArea" layoutX="400.0" prefHeight="600.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="54.0" fitWidth="89.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../MAP_proiectextins/map224_lab6_catalindiana/src/main/resources/com/example/lab6/data/invers.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="122.0" layoutY="61.0" prefHeight="10.0" prefWidth="190.0" text="Welcome Back," textFill="#6d1ff2">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="108.0" prefHeight="35.0" prefWidth="228.0" text="Login in to continue" textFill="#6d1ff2">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fieldUsername" layoutX="68.0" layoutY="265.0" prefHeight="42.0" prefWidth="265.0" promptText="Username" style="-fx-border-color: #6D1FF2;" />
+            <PasswordField fx:id="fieldPassword" layoutX="68.0" layoutY="320.0" onAction="#onLoginButtonClick" prefHeight="42.0" prefWidth="266.0" promptText="Password" style="-fx-border-color: #6D1FF2;" />
+            <Button fx:id="btnLogin" blendMode="MULTIPLY" layoutX="68.0" layoutY="448.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="50.0" prefWidth="266.0" styleClass="loginBtn" stylesheets="@styleshit.css" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label layoutX="231.0" layoutY="413.0" onMouseClicked="#onForgotPasswordClick" styleClass="forgetBtn" stylesheets="@styleshit.css" text="Forgot your password?" textFill="#767676">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label layoutX="217.0" layoutY="527.0" onMouseClicked="#openRegistration" stylesheets="@styleshit.css" text="Sign up" textFill="#6d1ff2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label layoutX="133.0" layoutY="527.0" stylesheets="@styleshit.css" text="New user?" textFill="#767676">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+            <Label fx:id="labelPasswordError" layoutX="110.0" layoutY="381.0" prefHeight="18.0" prefWidth="214.0" textFill="#ff2626" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

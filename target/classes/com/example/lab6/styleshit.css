@@ -1,0 +1,103 @@
+.parent{
+    -fx-background-color: white;
+}
+
+.sidebar{
+    -fx-background-color:  #6D1FF2;
+}
+.forgetBtn{
+    -fx-text-fill: #a3a3a3;
+}
+.forgetBtn:hover{
+    -fx-text-fill: #6D1FF2;
+}
+
+.pagination {
+    height: 36px;
+    margin: 18px 0;
+    color: #6c58bF;
+}
+
+.loginBtn{
+    -fx-background-color:  #6D1FF2;
+    -fx-text-fill:#FFF;
+    -fx-background-radius: 10px;
+}
+.pane-radius{
+    -fx-background-radius: 30px;
+    -fx-background-color :  #858585;
+}
+
+
+
+.loginBtn:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-text-fill:  #6D1FF2;
+    -fx-border-color: #6D1FF2;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 10px;
+}
+
+activityBtn{
+    -fx-text-fill: black;
+}
+
+.closeBtn{
+    -fx-fill:#545454;
+}
+
+.closeBtn:hover{
+    -fx-fill: #545454
+
+}
+.dark-gray-background{
+    -fx-background-color: #46474A
+}
+
+.gray-background{
+    -fx-background-color: #636566;
+}
+.transparent-background{
+
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.radius{
+    -fx-background-radius:100px;
+}
+.radius_pane{
+    -fx-background-radius:50px;
+}
+.text-input{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+}
+
+.text-input-black{
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+.black-background{
+    -fx-background-color: #1c1c21;
+}
+
+
+.scroll-pane > .viewport {
+    -fx-background-color: #636566;
+}
+.scroll-pane {
+    -fx-background-color: #636566;
+}
+.notification {
+    -fx-background-color: red;
+    -fx-background-radius:30px;
+
+}
+.date-picker .text-field {    -fx-control-inner-background:  #6D1FF2 ;}
+
+friendBtn{
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
