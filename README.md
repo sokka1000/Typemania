@@ -25,5 +25,17 @@ Basic Social Media Application.
 
 
 ## Demo
+
 *Login*
 ![image](https://user-images.githubusercontent.com/93188396/161097112-ee36ee63-ac02-4d09-88f7-0aca4857dafe.png)
+
+
+*Register*
+![image](https://user-images.githubusercontent.com/93188396/161097580-55a03e33-21a6-4c52-bdb9-194a5d48ae68.png)
+
+*Forget password*
+![image](https://user-images.githubusercontent.com/93188396/161097791-dc0af2e2-4a6d-45de-a347-58019325962f.png)
+
+
+
+
