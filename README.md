@@ -1,27 +1,57 @@
-# Welcome to Typemania!
+# Welcome to Typemania! 🎉
 
-Basic Social Media Application.
+## Main Functionalities
 
-## Main functionalities:
+🔐 **User Authentication System**
+- Register and login functionality
+- Passwords secured using MD5 hashing algorithm
 
- - user authentication system including register and login
- - passwords secured using MD5 hashing algorithm
- - in profile page the connected user can change the profile picture, check friends and common friends list
- - every user can search another one through the search bar
- - send and receive friend requests
- - send individual or group messages 
- - the possibility to subscribe to an event
- - notifications for upcoming events
- - create reports about users activity and export them as pdf
- - the user can logout from his account
+👤 **Profile Page**
+- Change profile picture
+- Check friends and common friends list
 
-## Technologies
- - Java SE - used for the main development of the application
- - JavaFX and Scene Builder - used for the development of GUI
- - CSS - used for design
- - PostgreSQL - used for the management of database
- - Bitbucket and Github 
- - IntelliJ IDEA - the used IDE
+🔍 **User Search**
+- Search for other users through the search bar
+
+🤝 **Friend Requests**
+- Send and receive friend requests
+
+💬 **Messaging**
+- Send individual or group messages
+
+📅 **Event Subscription**
+- Subscribe to events
+- Receive notifications for upcoming events
+
+📊 **User Activity Reports**
+- Create reports about user activity and export them as PDF
+
+🚪 **Logout**
+- Logout from your account
+
+## Technologies Used
+
+☕ **Java SE**
+- Main development of the application
+
+🎨 **JavaFX and Scene Builder**
+- Development of GUI
+
+💅 **CSS**
+- Design
+
+🐘 **PostgreSQL**
+- Database management
+
+🔗 **Bitbucket and Github**
+- Version control
+
+🛠️ **IntelliJ IDEA**
+- Integrated Development Environment (IDE)
+
+---
+
+Feel free to explore and enjoy the Typemania experience! 😊
 
 
 ## Demo
